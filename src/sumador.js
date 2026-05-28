@@ -7,10 +7,14 @@ function sumarCadenas(cadena) {
   let numerosStr = cadena;
 
   if (cadena.startsWith("//[")) {
-    const finDelimitador = cadena.indexOf("]");
-    const delimitadorPersonalizado = cadena.substring(3, finDelimitador);
-    delimitadores.push(delimitadorPersonalizado);
-    numerosStr = cadena.substring(finDelimitador + 1).trim();
+    let restoCadena = cadena.substring(2);
+    while (restoCadena.startsWith("[")) {
+      const finDelimitador = restoCadena.indexOf("]");
+      const delimitadorPersonalizado = restoCadena.substring(1, finDelimitador);
+      delimitadores.push(delimitadorPersonalizado);
+      restoCadena = restoCadena.substring(finDelimitador + 1);
+    }
+    numerosStr = restoCadena.trim();
   }
 
   let numerosNormalizados = numerosStr;
