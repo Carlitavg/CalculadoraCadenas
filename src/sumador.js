@@ -3,7 +3,7 @@ function sumarCadenas(cadena) {
     return 0;
   }
   let partes = cadena.split(",");
-  return parseInt(partes[0]) + (partes[1] ? parseInt(partes[1]) : 0);
+  return partes.reduce((suma, numero) => suma + parseInt(numero), 0);
 }
 
 export default sumarCadenas;

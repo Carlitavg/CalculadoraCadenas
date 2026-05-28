@@ -12,4 +12,8 @@ describe("Calculadora de Cadenas", () => {
   it("deberia sumar dos numeros separados por coma", () => {
     expect(sumarCadenas("1,2")).toEqual(3);
   });
+
+  it("deberia sumar varios numeros separados por coma", () => {
+    expect(sumarCadenas("1,2,3,4")).toEqual(10);
+  });
 });
