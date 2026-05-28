@@ -16,9 +16,23 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1d3100944f1f7cfaeb876ed669a23bc1a9238ab1",
     "commitName": "feat: retornar 0 para una cadena vacia",
     "commitTimestamp": 1779940868176,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1779940910066,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: retornar el numero ingresado si es uno solo",
+    "commitTimestamp": 1779940942563,
+    "testId": 1
   }
 ]
