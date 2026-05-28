@@ -72,9 +72,23 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f5433c143f9e2759607ecdd0296c2affdb8bb548",
     "commitName": "feat: soportar el guion como separador de numeros",
     "commitTimestamp": 1779941149385,
     "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1779941182672,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: permitir especificar un delimitador personalizado",
+    "commitTimestamp": 1779941217120,
+    "testId": 5
   }
 ]
