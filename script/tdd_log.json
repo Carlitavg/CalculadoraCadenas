@@ -30,9 +30,23 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "143070980e71e7dcfc03c43b198a95ae2f82fc8a",
     "commitName": "feat: retornar el numero ingresado si es uno solo",
     "commitTimestamp": 1779940942563,
     "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1779940977024,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: sumar dos numeros separados por coma",
+    "commitTimestamp": 1779940994881,
+    "testId": 2
   }
 ]

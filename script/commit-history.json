@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "143070980e71e7dcfc03c43b198a95ae2f82fc8a",
     "author": "Carla_Diana",
     "commit": {
       "date": "2026-05-28T04:02:22.000Z",
       "message": "feat: retornar el numero ingresado si es uno solo",
-      "url": "https://github.com/Carlitavg/CalculadoraCadenas/commit/HEAD"
+      "url": "https://github.com/Carlitavg/CalculadoraCadenas/commit/143070980e71e7dcfc03c43b198a95ae2f82fc8a"
     },
     "stats": {
       "total": 5,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carla_Diana",
+    "commit": {
+      "date": "2026-05-28T04:03:14.000Z",
+      "message": "feat: sumar dos numeros separados por coma",
+      "url": "https://github.com/Carlitavg/CalculadoraCadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
