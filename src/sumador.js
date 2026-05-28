@@ -19,7 +19,13 @@ function sumarCadenas(cadena) {
   });
 
   let partes = numerosNormalizados.split(",");
-  return partes.reduce((suma, numero) => suma + parseInt(numero.trim()), 0);
+  return partes.reduce((suma, numero) => {
+    let numParseado = parseInt(numero.trim());
+    if (isNaN(numParseado) || numParseado > 1000) {
+      return suma;
+    }
+    return suma + numParseado;
+  }, 0);
 }
 
 export default sumarCadenas;

@@ -24,4 +24,8 @@ describe("Calculadora de Cadenas", () => {
   it("deberia permitir especificar un delimitador personalizado", () => {
     expect(sumarCadenas("//[;] 6;7;4")).toEqual(17);
   });
+
+  it("deberia ignorar los numeros mayores a 1000", () => {
+    expect(sumarCadenas("2, 1001")).toEqual(2);
+  });
 });
