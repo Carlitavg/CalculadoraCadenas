@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1f266123e8c175e807c0b8a6446eacafe72825e4",
     "author": "Carla_Diana",
     "commit": {
       "date": "2026-05-28T04:07:51.000Z",
       "message": "feat: ignorar los numeros mayores a 1000",
-      "url": "https://github.com/Carlitavg/CalculadoraCadenas/commit/HEAD"
+      "url": "https://github.com/Carlitavg/CalculadoraCadenas/commit/1f266123e8c175e807c0b8a6446eacafe72825e4"
     },
     "stats": {
       "total": 12,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carla_Diana",
+    "commit": {
+      "date": "2026-05-28T04:09:14.000Z",
+      "message": "feat: soportar delimitadores de cualquier longitud",
+      "url": "https://github.com/Carlitavg/CalculadoraCadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

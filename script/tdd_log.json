@@ -100,9 +100,23 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1f266123e8c175e807c0b8a6446eacafe72825e4",
     "commitName": "feat: ignorar los numeros mayores a 1000",
     "commitTimestamp": 1779941271982,
     "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1779941317337,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: soportar delimitadores de cualquier longitud",
+    "commitTimestamp": 1779941354481,
+    "testId": 7
   }
 ]
